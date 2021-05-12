@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header Navbar */
+
+#stunning-header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#stunning-header > nav {
+  display: flex;
+}
+
+#stunning-logo {
+  width: 90px;
+  margin-left: 40px;
+}
+
+#stunning-navbar-active {
+  color: #2b2724;
+  text-decoration: none;
+  margin-right: 45px;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 4px solid #8071d0;
+}
+
+.menu-items:hover {
+  color: #2b2724;
+  border-bottom: 4px solid #8071d0;
+}
+
+.menu-items {
+  color: #c0b7b7;
+  text-decoration: none;
+  margin-right: 45px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#header-btn {
+  margin-right: 40px;
+  text-transform: capitalize;
+  padding: 18px 22px;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  background-color: #ffd8db;
+  color: #a389cc;
+  font-weight: 600;
+}
+
+/* Right Srction Image */
+
+#right-section-image {
+  height: 75vh;
+  background: url("./images/landing-section-image.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  margin-right: 140px;
+}
+
+/* Section Left Description About Stunning */
+
+#left-section-desc {
+  margin-left: 140px;
+  margin-top: 0px;
+}
+
+#left-section-heading {
+  display: inline-block;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: -10px;
+  line-height: 1.3;
+}
+
+#full-stop {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: #5243c0;
+}
+
+#left-section-message {
+  color: #c0b7b7;
+  margin-bottom: 40px;
+  font-size: 14px;
+  margin-top: -40px;
+  margin-bottom: 18px;
+}
+
+#left-section-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+#left-section-btn {
+  cursor: pointer;
+  background-color: #5243c0;
+  border: 0;
+  outline: none;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 25px;
+  font-weight: 600;
+  padding: 18px 22px;
+  margin-right: 10px;
+}
+
+.arrow-up {
+  margin-right: 10px;
+}
+
+/* Section Left about cards */
+
+#left-section-cards-wrapper {
+  margin-top: 20px;
+  margin-left: 140px;
+}
+
+#left-section-card-active {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  height: 6vh;
+  align-items: center;
+  border: 1px solid #f6f6f6;
+  padding: 10px 15px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px #f3f3f3;
+  margin-bottom: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.left-section-cards {
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
+  height: 6vh;
+  align-items: center;
+  border: 1px solid #f6f6f6;
+  padding: 10px 15px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px #f3f3f3;
+  margin-bottom: 5px;
+  background-color: #fbfbfb;
+  cursor: pointer;
+}
+
+.left-section-cards:hover {
+  background-color: #ffffff;
+}
+
+.heading-margin {
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+#pink-btn {
+  width: 7%;
+  height: 2vh;
+  background-color: #fed7da;
+  border-radius: 20px;
+}
+
+#orange-btn {
+  width: 7%;
+  height: 2vh;
+  background-color: #fd6534;
+  border-radius: 20px;
+}
+
+#green-btn {
+  width: 7%;
+  height: 2vh;
+  background-color: #9ed095;
+  border-radius: 20px;
+}
+
+#red-btn {
+  width: 7%;
+  height: 2vh;
+  background-color: #ffe4a0;
+  border-radius: 20px;
+}
